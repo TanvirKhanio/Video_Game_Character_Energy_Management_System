@@ -3,12 +3,10 @@ public class Mage extends PlayerCharacter {
     public Mage(int characterID, double energyLevel, String playerName) {
         super(characterID, energyLevel, playerName);
     }
-
     @Override
     public double calculateRegenRate() {
         return 0.05;
     }
-
     @Override
     public void displayInfo() {
         System.out.println("Character Type: Mage");
